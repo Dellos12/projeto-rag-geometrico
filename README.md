@@ -18,8 +18,16 @@ O projeto foi desenhado como uma "engrenagem" capaz de se acoplar a estruturas m
 *   **ChromaDB:** Banco vetorial persistente utilizando indexação **HNSW** (Hierarchical Navigable Small Worlds).
 *   **NumPy:** Motor fundamental para manipulação de arrays multidimensionais e cálculo de normas.
 
-## 🚀 Como Executar a Manobra
+> **Status do Projeto:** Arquitetura Industrial Operacional 🚀  
+> **Autor:** Sidmar Pereira - Cientista de Dados focado em Estatística e Geometria da Informação.
 
-### 1. Subir a Infraestrutura (Docker)
-```bash
-docker compose up --build -d
+---
+
+### 📄 Documentação Profissional
+Para entender a visão estratégica e a base matemática por trás deste projeto, acesse meu perfil completo:
+
+*   **[Baixar Currículo em PDF](./Curriculo_Sidmar_Pereira_Data_Scientist.pdf)** 📥
+*   **[Visitar meu Perfil no LinkedIn](https://www.linkedin.com)** 🔗
+
+---
+
