@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    container_name: rag_server
+    # Reativamos as portas para permitir o uso do 'requests'
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+      - ./db:/app/db
+      - ./model_cache:/root/.cache/torch
+    environment:
+      - PYTHONUNBUFFERED=1
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
+
+
