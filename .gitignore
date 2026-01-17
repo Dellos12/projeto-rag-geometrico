@@ -1,1 +1,32 @@
+# --- Python & Ambientes ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+azure_env/
 .virtualenvs/
+.env
+
+# --- Geometria e Dados (O Coração do Data Lake Local) ---
+
+db/
+model_cache/
+*.hdf5
+*.csv
+*.log
+
+# --- Docker ---
+.docker/
+
+# --- IDEs & SO ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Distribuição ---
+dist/
+build/
+*.egg-info/
+
